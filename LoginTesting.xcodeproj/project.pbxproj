@@ -14,7 +14,24 @@
 		72087B82278E3B8A00CA590F /* LoginTesting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72087B80278E3B8A00CA590F /* LoginTesting.xcdatamodeld */; };
 		72087B84278E3B8B00CA590F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72087B83278E3B8B00CA590F /* Assets.xcassets */; };
 		72087B87278E3B8B00CA590F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72087B85278E3B8B00CA590F /* LaunchScreen.storyboard */; };
+		72087B8F278E3C0E00CA590F /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72087B8E278E3C0E00CA590F /* LoginTextField.swift */; };
+		72087B91278E3CC700CA590F /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72087B90278E3CC700CA590F /* extensions.swift */; };
+		72087B95278E428D00CA590F /* UsernameChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72087B94278E428D00CA590F /* UsernameChecker.swift */; };
+		72087B97278E429900CA590F /* PasswordChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72087B96278E429900CA590F /* PasswordChecker.swift */; };
+		72087B9F278E4B8E00CA590F /* LoginTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72087B9E278E4B8E00CA590F /* LoginTestingTests.swift */; };
+		72087BA7278E4C6E00CA590F /* PasswordCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72087BA6278E4C6E00CA590F /* PasswordCheckerTests.swift */; };
+		72087BAB278E4EE700CA590F /* UsernameCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72087BAA278E4EE700CA590F /* UsernameCheckerTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72087BA1278E4B8E00CA590F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72087B6C278E3B8A00CA590F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72087B73278E3B8A00CA590F;
+			remoteInfo = LoginTesting;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		72087B74278E3B8A00CA590F /* LoginTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +43,26 @@
 		72087B83278E3B8B00CA590F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72087B86278E3B8B00CA590F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72087B88278E3B8B00CA590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72087B8E278E3C0E00CA590F /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		72087B90278E3CC700CA590F /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		72087B94278E428D00CA590F /* UsernameChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameChecker.swift; sourceTree = "<group>"; };
+		72087B96278E429900CA590F /* PasswordChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChecker.swift; sourceTree = "<group>"; };
+		72087B9C278E4B8E00CA590F /* LoginTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72087B9E278E4B8E00CA590F /* LoginTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTestingTests.swift; sourceTree = "<group>"; };
+		72087BA0278E4B8E00CA590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72087BA6278E4C6E00CA590F /* PasswordCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCheckerTests.swift; sourceTree = "<group>"; };
+		72087BAA278E4EE700CA590F /* UsernameCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameCheckerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		72087B71278E3B8A00CA590F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72087B99278E4B8E00CA590F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				72087B76278E3B8A00CA590F /* LoginTesting */,
+				72087B9D278E4B8E00CA590F /* LoginTestingTests */,
 				72087B75278E3B8A00CA590F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				72087B74278E3B8A00CA590F /* LoginTesting.app */,
+				72087B9C278E4B8E00CA590F /* LoginTestingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,14 +95,29 @@
 			children = (
 				72087B77278E3B8A00CA590F /* AppDelegate.swift */,
 				72087B79278E3B8A00CA590F /* SceneDelegate.swift */,
-				72087B7B278E3B8A00CA590F /* ViewController.swift */,
 				72087B7D278E3B8A00CA590F /* Main.storyboard */,
 				72087B83278E3B8B00CA590F /* Assets.xcassets */,
 				72087B85278E3B8B00CA590F /* LaunchScreen.storyboard */,
 				72087B88278E3B8B00CA590F /* Info.plist */,
 				72087B80278E3B8A00CA590F /* LoginTesting.xcdatamodeld */,
+				72087B7B278E3B8A00CA590F /* ViewController.swift */,
+				72087B8E278E3C0E00CA590F /* LoginTextField.swift */,
+				72087B90278E3CC700CA590F /* extensions.swift */,
+				72087B94278E428D00CA590F /* UsernameChecker.swift */,
+				72087B96278E429900CA590F /* PasswordChecker.swift */,
 			);
 			path = LoginTesting;
+			sourceTree = "<group>";
+		};
+		72087B9D278E4B8E00CA590F /* LoginTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				72087B9E278E4B8E00CA590F /* LoginTestingTests.swift */,
+				72087BA0278E4B8E00CA590F /* Info.plist */,
+				72087BA6278E4C6E00CA590F /* PasswordCheckerTests.swift */,
+				72087BAA278E4EE700CA590F /* UsernameCheckerTests.swift */,
+			);
+			path = LoginTestingTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +140,24 @@
 			productReference = 72087B74278E3B8A00CA590F /* LoginTesting.app */;
 			productType = "com.apple.product-type.application";
 		};
+		72087B9B278E4B8E00CA590F /* LoginTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72087BA3278E4B8E00CA590F /* Build configuration list for PBXNativeTarget "LoginTestingTests" */;
+			buildPhases = (
+				72087B98278E4B8E00CA590F /* Sources */,
+				72087B99278E4B8E00CA590F /* Frameworks */,
+				72087B9A278E4B8E00CA590F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72087BA2278E4B8E00CA590F /* PBXTargetDependency */,
+			);
+			name = LoginTestingTests;
+			productName = LoginTestingTests;
+			productReference = 72087B9C278E4B8E00CA590F /* LoginTestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +169,10 @@
 				TargetAttributes = {
 					72087B73278E3B8A00CA590F = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					72087B9B278E4B8E00CA590F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 72087B73278E3B8A00CA590F;
 					};
 				};
 			};
@@ -118,6 +190,7 @@
 			projectRoot = "";
 			targets = (
 				72087B73278E3B8A00CA590F /* LoginTesting */,
+				72087B9B278E4B8E00CA590F /* LoginTestingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +206,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72087B9A278E4B8E00CA590F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,14 +220,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72087B97278E429900CA590F /* PasswordChecker.swift in Sources */,
 				72087B82278E3B8A00CA590F /* LoginTesting.xcdatamodeld in Sources */,
 				72087B7C278E3B8A00CA590F /* ViewController.swift in Sources */,
 				72087B78278E3B8A00CA590F /* AppDelegate.swift in Sources */,
+				72087B95278E428D00CA590F /* UsernameChecker.swift in Sources */,
 				72087B7A278E3B8A00CA590F /* SceneDelegate.swift in Sources */,
+				72087B8F278E3C0E00CA590F /* LoginTextField.swift in Sources */,
+				72087B91278E3CC700CA590F /* extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72087B98278E4B8E00CA590F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72087BA7278E4C6E00CA590F /* PasswordCheckerTests.swift in Sources */,
+				72087BAB278E4EE700CA590F /* UsernameCheckerTests.swift in Sources */,
+				72087B9F278E4B8E00CA590F /* LoginTestingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72087BA2278E4B8E00CA590F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72087B73278E3B8A00CA590F /* LoginTesting */;
+			targetProxy = 72087BA1278E4B8E00CA590F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		72087B7D278E3B8A00CA590F /* Main.storyboard */ = {
@@ -323,6 +425,46 @@
 			};
 			name = Release;
 		};
+		72087BA4278E4B8E00CA590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9GZA44T6J;
+				INFOPLIST_FILE = LoginTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkbartley25-yahoo.LoginTestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginTesting.app/LoginTesting";
+			};
+			name = Debug;
+		};
+		72087BA5278E4B8E00CA590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9GZA44T6J;
+				INFOPLIST_FILE = LoginTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkbartley25-yahoo.LoginTestingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginTesting.app/LoginTesting";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +482,15 @@
 			buildConfigurations = (
 				72087B8C278E3B8B00CA590F /* Debug */,
 				72087B8D278E3B8B00CA590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72087BA3278E4B8E00CA590F /* Build configuration list for PBXNativeTarget "LoginTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72087BA4278E4B8E00CA590F /* Debug */,
+				72087BA5278E4B8E00CA590F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
